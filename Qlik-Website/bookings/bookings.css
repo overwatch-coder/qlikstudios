@@ -1,0 +1,27 @@
+@import url('/style.css');
+
+/* Hero section of bookings */
+#hero-bookings{
+    background: transparent url('/assets/bookings-bg-3.jpg') no-repeat; 
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    border-bottom: 1px solid #0000;
+    transition: background 5s ease-in-out;
+    margin-top: 60px;
+    padding: 55px 0;
+}
+/* End of hero section */
+
+/* Forms section */
+form{
+    line-height: 40px;
+}
+
+.show-error{
+    display: none;
+}
+/* End form section */
+

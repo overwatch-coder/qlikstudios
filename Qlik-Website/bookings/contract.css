@@ -1,0 +1,40 @@
+@import url('/style.css');
+
+/* Hero section of services */
+#hero-contracts{
+    background: transparent url('/assets/bookings-bg.jpg') no-repeat; 
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    border-bottom: 1px solid #0000;
+    transition: background 5s ease-in-out;
+    margin-top: 70px;
+    padding: 50px 0;
+}
+/* End of hero section */
+
+/* Contract Section */
+.contract-card{
+    background: linear-gradient(135deg, rgb(45, 130, 145), rgb(141, 141, 141));
+    transition: 0.8s ease-in-out;
+}
+
+.contract-card:hover, .contract-card-french:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+}
+
+.contract-card-french{
+    background: linear-gradient(135deg, rgb(141, 141, 141), rgb(25, 42, 194));
+    transition: 0.8s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    .contract-card:hover, .contract-card-french:hover{
+        transform: scale(0.95);
+        transition: 0.8s ease-in-out;
+    }
+  }
+/* End of Contract Section */

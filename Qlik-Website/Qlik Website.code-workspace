@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\Blog Website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Qlik-Website",
+		"liveServer.settings.port": 5501,
+		"emmet.excludeLanguages": [],
+		"emmet.includeLanguages": {
+			"php": "php"
+		},
+		"emmet.showSuggestionsAsSnippets": true,
+		"emmet.triggerExpansionOnTab": true,
+		"open-php-html-js-in-browser.selectedBrowser": "Firefox",
+		"php.validate.executablePath": "C:\\xampp\\php\\php.exe"
+	}
+}

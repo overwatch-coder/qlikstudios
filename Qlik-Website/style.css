@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(7,8,7,0.9) 0%, rgba(0,0,0,0.9) 100%);
+    color: #ffff;
+    height: auto;
+}
+/* Navigation styles */
+
+#main-nav{
+    border-bottom: 0.1px solid white;
+    background: linear-gradient(180deg, rgb(17, 17, 17) 0%, rgb(17, 17, 17) 100%);
+}
+
+/* styling the nav links */
+
+#activeOne{
+    color: #A48111;
+    font-weight: bold;
+    opacity: 1;
+}
+.bgColor{
+    opacity: 0.5;
+    transition: all 3s ease-in-out;
+    position: relative;
+ }
+
+ .bgColor::after{
+   content: "";
+   display: block;
+   transition: all 0.5s ease-in-out;
+   width: 0%;
+   border-bottom: 2px solid #A48111;
+   padding-top: 7px;
+   margin: 0;
+ }
+
+ .bgColor:hover::after{
+   width: 100%;
+ }
+
+#activeOne:hover{
+color: white;
+font-weight: normal;
+}
+
+ .bgColor:hover{
+transition: all 0.4s ease-in-out;
+opacity: 1;
+transform: scale(0.9);
+ }
+
+/* End of styles */
+
+/* styling the dropdown */
+  
+  .dropdown-menu {
+    background-color: #947510;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    margin-top: -5px;
+    z-index: 1;
+  }
+  
+  .dropdown-menu li a {
+    color: #ffff;
+    padding: 13px 15px;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+      background-color: rgb(10, 10, 10);
+      transition: 0.4s;
+      color: #ffff;
+  }
+  
+  /* end of dropdown styles */
+
+  /* End of Navigation styles */
+
+  /* Hero section */
+  #hero{
+      background: transparent url('/assets/hero.jpg') no-repeat; 
+      opacity: 1;
+      background-position: center;
+      background-size: cover;
+      height: 75vh;
+      width: 100%;
+      transition: all 3s ease-in-out;
+  }
+
+  #getStarted{
+      background:#A48111;
+      color: white;
+      font-weight: 600;
+      border: none;
+      box-shadow: 20px 20px 20px #00000029;
+  }
+
+  #getStarted:hover{
+      opacity: 0.85;
+      transition: 0.4s;
+      transform: scale(0.95);
+  }
+
+  /* Leaders section */
+  #leader-section{
+    background: linear-gradient(0deg, rgba(5, 5, 5, 0.1) 0%, rgba(19, 18, 18, 0.1) 100%);
+  }
+
+  /* End of section */
+
+  /* Slide show section */
+  #imgSlideshow, #imgSlideshowRes{
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0.2) 0%, rgba(19, 18, 18, 0.2) 100%);
+  }
+
+  .slideImg:hover{
+      opacity: 0.7;
+      transition: 0.3s ease-in-out;
+      transform: scale(0.95);
+  }
+  /* End of Slide show */
+
+
+  /* Subscribe Section */
+  #subscribe-section{
+    background: transparent linear-gradient(0deg, #070807DB 0%, #2E2E2DB5 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.99;
+  }
+  /* End Subscribe */
+
+
+  /* Main Footer */
+  
+  /* Footer 1 */
+  #footer-1{
+    background: transparent linear-gradient(180deg, #070807DB 0%, #2E2E2DB5 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.99;
+  }
+  .footer-list{
+      color: #ffff;
+      opacity: 0.8;
+  }
+
+  .footer-list:hover{
+      color: #A48111;
+      opacity: 1;
+  }
+
+  .social-icons:hover{
+    opacity: 0.5;
+  }
+  /* End of footer 1 */
+
+  /* Footer 2  */
+  #footer-2{
+    background: #121212 0% 0% no-repeat padding-box;
+    opacity: 1;
+    min-height: 100px;
+  }
+  /* End of footer 2 */
+
+  /* End of Main footer */

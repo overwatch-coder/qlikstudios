@@ -1,0 +1,108 @@
+@import url("/style.css");
+
+/* Nav */
+#navbarDropdownMenuLink{
+    color: #A48111;
+    font-weight: bold;
+    opacity: 1;
+  }
+  
+  #navbarDropdownMenuLink:hover{
+    color: white;
+    font-weight: normal;
+    }
+/* End of Nav */
+
+/* Hero section of services */
+#hero-services{
+    background: transparent url('/assets/services-bg.jpg') no-repeat; 
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    border-bottom: 1px solid #0000;
+    transition: all 3s ease-in-out;
+}
+
+#hero-services:hover{
+    transform: scale(1.2);
+    transition: all 2s ease-in-out;
+}
+
+/* End of hero section */
+
+/* Services Section */
+/* .services-img{
+    border-radius: 30px;
+    width: 30%;
+} */
+
+.small-p{
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.services-box{
+    background: linear-gradient(180deg, rgb(32, 31, 31), rgb(19, 18, 18));
+}
+
+/* End of Services Section */
+
+/* packages */
+.premium-card, .silver-card{
+    background-color: #ffff;
+    opacity: 0.7;
+    transition: all 1s ease-in-out;
+}
+
+.premium-card:hover, .silver-card:hover{
+    transform: scale(1.15);
+    transition: all 1s ease-in-out;
+    opacity: 1;
+    z-index: 2;
+}
+
+.gold-card{
+    background-color: #ffff;
+    opacity: 1;
+    transform: scale(1.05);
+    transition: all 1s ease-in-out;
+    z-index: 1;
+}
+
+.gold-card:hover{
+    transform: scale(1.15);
+    transition: all 1s ease-in-out;
+    z-index: 2;
+}
+
+/* End of Packages */
+
+/* Why Choose Us section */
+
+/* End of Why Choose Us */
+
+
+/* Review section */
+
+#review-write input {
+    font-size: 1.0rem !important;
+}
+
+.review_submit:hover {
+    color: #fff !important;  
+    transition: all 0.5s;
+    background-color: black;
+}
+
+.hide-review{
+    display: none;
+    transition : all 2s ease-in-out;
+}
+.show-review{
+    display: block;
+    transition : all 2s ease-in-out;
+}
+
+/* End of review section */

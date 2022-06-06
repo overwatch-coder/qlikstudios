@@ -1,0 +1,41 @@
+@import "/style.css";
+
+/* Hero section */
+#hero-portfolio{
+    background: transparent url('/assets/portfolio-bg.jpg') no-repeat; 
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    border-bottom: 1px solid #0000;
+    transition: all 3s ease-in-out;
+    animation: heroAnimate 4s ease-in-out infinite alternate;
+}
+
+@keyframes heroAnimate {
+    from{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    to{
+        opacity: 0.25;
+        transform: scale(0.975);
+    }
+  }
+
+/* End of Hero Section */
+
+/* Portfolio Section */
+.portfolio-img{
+    border: 1px solid #A48111;
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio-img:hover{
+        transform: scale(0.95) !important;
+    }
+  }
+
+/* End of Portfolio Section */
